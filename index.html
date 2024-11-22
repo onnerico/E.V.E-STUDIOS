@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>E.V.E</title>
+  <link rel="stylesheet" href="css/bulma.min.css">
+  <link rel="stylesheet" href="css/material-design-iconic-font.css">
+  <link rel="stylesheet" href="css/style.css">
+ 
+</head>
+
+<body>
+  <nav class="navbar">
+    <!-- Nabvar header -->
+    <header class="navbar-header" id="navbar-header">
+      <a href="#" class="brand-link is-size-3">
+        <i class="zmdi"></i>
+        <span class="brand">E.V.E STUDIOS</span>
+      </a>
+      <button class="navbar-menu-mobile open is-size-3 is-hidden-desktop" id="navbar-menu-mobile">
+        <i class="zmdi zmdi-menu">E.V.E</i>
+      </button>
+    </header>
+    <!-- Navbar container -->
+
+      <ul class="navbar-container" id="navbar-container">
+        <li class="navbar-item">
+          <a data-scroll href="#top" id="inicio" class="navbar-a navbar-link-active">HOME</a>
+        </li>
+        <li class="navbar-item">
+          <a data-scroll href="#about" id="acercaDe" class="navbar-a">RESUMEN</a>
+        </li>
+        <li class="navbar-item">
+          <a data-scroll href="#section2" id="section" class="navbar-a">SERVICIOS</a>
+        </li>
+        <li class="navbar-item">
+          <a data-scroll href="#gallery" id="photos" class="navbar-a">PROYECTOS</a>
+        </li>
+        <li class="navbar-item">
+          <a data-scroll href="#contacto" id="form" class="navbar-a">CONTACTO</a>
+        </li>
+      </ul>
+  
+  </nav>
+  <!-- Sección del carrusel -->
+
+  <div class="section-body" id="top">
+  <div class="slide-contenedor" >
+      <div class="miSlider fade">
+          <div class="slider-body">
+              <span class="tag-slider is-size-5-desktop">E.V.E</span>
+              <h2 class="is-size-3-mobile has-text-weight-bold slider-title">E.V.E</h2>
+              <p class="description-slider is-size-7-mobile"> La realidad aumentada te llevará a nuevas fronteras.  </p>
+            </div>
+          <img src="img/slider-1.jpg" alt="">
+      </div>
+      <div class="miSlider fade">
+          <div class="slider-body">
+              <span class="tag-slider">PROYECTOS</span>
+              <h2 class="is-size-3-mobile has-text-weight-bold slider-title">SERVICIOS</h2>
+              <p class="description-slider is-size-7-mobile"> Crea una nueva era de posibilidades con nosotros. </p>
+            </div>
+          <img src="img/slider-2.jpg" alt="">
+      </div>
+      <div class="miSlider fade">
+          <div class="slider-body">
+              <span class="tag-slider">MARCA</span>
+              <h2 class="is-size-3-mobile has-text-weight-bold slider-title">PROYECTOS</h2>
+              <p class="description-slider is-size-7-mobile"> E.V.E es solo el inicio. </p>
+            </div>
+          <img src="img/slider-3.jpg" alt="">
+      </div>
+      <div class="direcciones">
+          <a href="#" class="atras" onclick="avanzaSlide(-1)">&#10094;</a>
+          <a href="#" class="adelante" onclick="avanzaSlide(1)">&#10095;</a>
+      </div>
+      <div class="dots">
+          <span class="dot active" onclick="posicionSlide(1)"></span>
+          <span class="dot" onclick="posicionSlide(2)"></span>
+          <span class="dot" onclick="posicionSlide(3)"></span>
+      </div>
+  </div>
+   <!-- About me -->
+  <div class="container" id="about">
+    <div class="columns is-vcentered">
+      <div class="column is-half">
+        <div class="about-me">
+          <figure class="image">
+            <img class="about-me-img" src="img/about-me-mobile.jpg" alt="">
+          </figure>
+        </div>
+      </div>
+      <div class="column is-half section-about-me">
+        <h1 class="title is-size-3-mobile is-size-2-tablet has-text-weight">E.V.E</h1>
+        <h5 class="subtitle is-size-6-mobile is-size-5-tablet separator">PROYECTO</h5>
+        <p class="text is-size-7-mobile">Al conectar el mundo físico con el digital, E.V.E ofrece una visión del futuro en la que la innovación tecnológica y el desarrollo comunitario se entrelazan, creando un camino hacia la modernización y el progreso sin perder de vista las raíces locales. El Mirador de la Princesa es solo el comienzo. El impacto de este proyecto tiene el potencial de resonar en todo Cundinamarca, abriendo la puerta a un nuevo capítulo en la historia de la tecnología y el desarrollo rural.</p>
+        <p class="text is-size-7-mobile">
+          Esto es E.V.E.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div id="section2" class="hero my-hero" style="--banner: url(../img/hero-img.jpg); --bg-atachment: fixed;">
+    <div class="container-hero">
+
+      <div class="container">
+        <div class="columns is-multiline">
+          <div class="column is-full has-text-centered">
+            <h1 class="title has-text-white is-size-3-mobile is-size-1-tablet">
+              SERVICIOS
+            </h1>
+            <h5 class="subtitle is-size-5">
+              ESTO ES LO QUE HACEMOS
+            </h5>
+          </div>
+          <div class="column">
+            <div class="banner-container">
+              <span class="container-icon">
+                <i class=""></i>
+              </span>
+              <h4 class="is-size-5 has-text-centered has-text-weight-bold">3D MODELING</h4>
+              <p class="has-text-centered is-size-7-mobile">Creamos tus modelos.</p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="banner-container">
+              <span class="container-icon">
+                <i class=""></i>
+              </span>
+              <h4 class="is-size-5 has-text-centered has-text-weight-bold">ANIMATION</h4>
+              <p class="has-text-centered is-size-7-mobile">Le damos vida a tu negocio.</p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="banner-container">
+              <span class="container-icon">
+                <i class=""></i>
+              </span>
+              <h4 class="is-size-5 has-text-centered has-text-weight-bold">AR TECH</h4>
+              <p class="has-text-centered is-size-7-mobile">Nutrimos tu entorno.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Galería -->
+  <div class="container" id="gallery">
+    <div class="columns is-multiline">
+      <div class="column has-text-centered is-full">
+        <h1 class="title is-size-3-mobile is-size-1-tablet has-text-weight">PROYECTOS</h1>
+        <h5 class="subtitle is-size-6">CONOCE NUESTRAS CREACIONES</h5>
+      </div>
+      <div class="column">
+        <div class="gallery-container" id="gallery-container">
+          <div class="gallery-item">
+            <figure class="image">
+
+              <img class="gallery-img" src="img/gallery-1-thumb.jpg" alt="">
+            </figure>
+          </div>
+          <div class="gallery-item">
+            <figure class="image">
+              <img class="gallery-img" src="img/gallery-2-thumb.jpg" alt="">
+            </figure>
+          </div>
+          <div class="gallery-item">
+            <figure class="image">
+
+              <img class="gallery-img" src="img/gallery-3-thumb.jpg" alt="">
+            </figure>
+          </div>
+          <div class="gallery-item">
+            <figure class="image">
+              <img  class="gallery-img" src="img/gallery-4-thumb.jpg" alt="">
+            </figure>
+          </div>
+          <div class="gallery-item">
+            <figure class="image">
+              <img  class="gallery-img" src="img/gallery-5-thumb.jpg" alt="">
+            </figure>
+          </div>
+          <div class="gallery-item">
+            <figure class="image">
+              <img  class="gallery-img" src="img/gallery-6-thumb.jpg" alt="">
+            </figure>
+          </div>
+          <div class="gallery-item">
+            <figure class="image">
+              <img  class="gallery-img" src="img/gallery-7-thumb.jpg" alt="">
+            </figure>
+          </div>
+          <div class="gallery-item">
+            <figure class="image">
+              <img  class="gallery-img" src="img/gallery-8-thumb.jpg" alt="">
+            </figure>
+          </div>
+          <div class="gallery-item">
+            <figure class="image">
+              <img  class="gallery-img" src="img/gallery-9-thumb.jpg" alt="">
+            </figure>
+          </div>
+          <div class="gallery-item">
+            <figure class="image">
+              <img  class="gallery-img" src="img/gallery-10-thumb.jpg" alt="">
+            </figure>
+          </div>
+          <div class="gallery-item">
+            <figure class="image">
+              <img  class="gallery-img" src="img/gallery-11-thumb.jpg" alt="">
+            </figure>
+          </div>
+          <div class="gallery-item">
+            <figure class="image">
+              <img  class="gallery-img" src="img/gallery-12-thumb.jpg" alt="">
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Contacto -->
+  <div class="container" id="contacto">
+    <div class="columns is-multiline">
+      <div class="column has-text-centered is-full">
+        <h1 class="title is-size-3-mobile is-size-1-tablet has-text-weight">CONTACTO</h1>
+        <h5 class="subtitle is-size-6">CREA CON NOSOTROS</h5>
+      </div>
+      <div class="column">
+        <form action="#">
+          <div class="columns is-multiline">
+            <div class="column is-half">
+              <div class="field">
+                <label class="label">Nombre</label>
+                <div class="control">
+                  <input class="is-radiusless is-shadowless input is-medium" type="text" placeholder="Nombre">
+                </div>
+              </div>
+              <div class="field">
+                <div class="control">
+                  <label class="label">Teléfono</label>
+                    <input class="is-radiusless is-shadowless input is-medium" type="text"
+                      placeholder="Teléfono">
+                </div>
+              </div>
+            </div>
+            <div class="column is-half">
+              <div class="field">
+                <div class="control">
+                  <label class="label">Email</label>
+                  <input class="is-radiusless is-shadowless input is-medium" type="text"
+                    placeholder="Email">
+                </div>
+              </div>
+              <div class="field">
+                <div class="control">
+                  <button class="is-radiusless is-shadowless button is-medium is-fullwidth" type="button">
+                    Enviar
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- Footer -->
+  <footer class="my-footer">
+    <div class="hero my-hero" style="--banner: url(../img/footer-banner.jpg); --bg-atachment: none;">
+      <div class="container-hero">
+        <div class="columns is-multiline">
+          <div class="column is-full has-text-centered">
+            <span class="has-text-white">
+            </span>
+          </div>
+          <div class="column is-full">
+            <ul class="my-footer-ul">
+              <li  class="my-footer-item">
+                <a href="#" class="my-footer-link facebook">
+                  <i class="zmdi zmdi-facebook"></i>
+                </a>
+              </li>
+              <li class="my-footer-item">
+                <a href="#" class="my-footer-link instagram">
+                  <i class="zmdi zmdi-instagram"></i>
+                </a>
+              </li>
+              <li class="my-footer-item">
+                <a href="#" class="my-footer-link pinterest">
+                  <i class="zmdi zmdi-pinterest"></i>
+                </a>
+              </li>
+              <li class="my-footer-item">
+                <a href="#" class="my-footer-link twitter">
+                  <i class="zmdi zmdi-twitter"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="column has-text-centered is-size-7-mobile  is-full">
+            <p class="footer-p has-text-white">© 2024 E.V.E STUDIOS. Todos los derechos reservados</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+
+  <script src="js/smooth-scroll.min.js"></script>
+  <script src="js/main.js"></script>
+  
+</body>
+
+</html>
